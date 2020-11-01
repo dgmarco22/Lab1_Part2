@@ -1,0 +1,143 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f9fafc;
+  
+  }
+ 
+ul {
+  display: flex;
+  flex-direction: column;  
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  }
+
+  li{
+    margin: 5px 0;
+}
+
+  .grey {
+    color : #69696a; text-decoration: none;
+    
+  }
+
+  button {
+    background-color:#000;
+    color: #FFF;
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1rem;
+    border: 0;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 100%;
+    height: 20px;
+    line-height: 3px;
+}
+
+  blockquote {
+    border-left: 3px solid #69696a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding-left: 15px;
+    color: #69696a
+  }
+
+  @media only screen and (min-width: 768px) {
+   nav{
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+   }
+   
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;  
+      position: absolute;
+      right: 160px;
+      top: 10px;
+    }
+
+    .grey{
+      padding: 0 0.5rem;
+    }
+
+    .Hireusbutton {
+      display: flex;
+      flex-direction: row;  
+      position: absolute;
+      background-color:#000;
+      color: #FFF;
+      text-align: center;
+      border-radius: 25px;
+      right: 5px;
+      top: 10px;
+  }
+
+  .Scrolldownbutton {  
+    display: flex;
+    position: absolute;
+    background-color:#000;
+    color: #FFF;
+    text-align: center;
+    border-radius: 25px;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+h1{
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  padding: 15px;
+}
+
+blockquote{
+  position: absolute;
+  width: 50%;
+  top: 35%;
+}
+
+#circles{
+  width: 50%;
+  top: 20%;
+}
+
+    .largecircle{
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      background-color: rgba(247, 136, 167, 0.6);
+      right: 70px;
+      top: 150px;
+    }
+
+    .mediumcircle{
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      position: absolute;
+      background-color: rgba(247, 193, 162, 0.7);
+      right: 10px;
+      top: 250px;
+    }
+
+    .smallcircle{
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      background-color: rgba(207, 130, 213, 0.6);
+      right: 20px;
+      top: 200px;
+    }
+  
+
+
+
+
+  }
